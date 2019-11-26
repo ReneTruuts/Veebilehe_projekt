@@ -1,5 +1,44 @@
+body {
+    width: 100%;
+    margin: auto
+}
+
+.konteiner {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.pealis {
+    background: #D8C3A5;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+}
+
+.navigatsioon {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    padding-top: 45px;
+    color: #e98074; 
+    font-family: "Kumar One Outline"; 
+    font-size: 17px;
+}
+
 h1{
-    color: #e98074;font-family: "Kumar One Outline"; font-size: 50px; text-align: center;
+    color: #e98074;font-family: "Kumar One Outline"; font-size: 45px; text-align: center;
 }
 h2{
     color: #e98074; font-family: "Kumar One Outline"; font-size: 20px; text-align: left;
