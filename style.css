@@ -4,7 +4,7 @@ body {
 }
 
 .konteiner {
-    width: 900x;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -32,15 +32,15 @@ a {
 li {
     list-style: none;
     float: left;
-    margin-left: 25px;
-    padding-top: 45px;
+    margin-left: 18px;
+    padding-top: 40px;
     color: #e98074; 
     font-family: "Kumar One Outline"; 
-    font-size: 18px;
+    font-size: 15px;
 }
 
 h1{
-    color: #e98074;font-family: "Kumar One Outline"; font-size: 45px;
+    color: #e98074;font-family: "Kumar One Outline"; font-size: 30px;
 }
 h2{
     color: #e98074; font-family: "Kumar One Outline"; font-size: 20px;
@@ -112,4 +112,3 @@ a:active {
     background: #bb0000;
     color: white;
   }
-  
