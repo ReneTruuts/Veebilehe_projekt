@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">    
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <head>
-    <title>Piparkoogipallid</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src ="vahetus.js"></script>
+<script src="kellaaeg.js"></script>
+<title>Piparkoogipallid</title>
 </head>
 
 <body>
     <div class="pealis">
         <div class="konteiner">
-            
+        
             <div class="logo">
                 <h1>Piparkoogipallid</h1>
             </div>
@@ -24,6 +26,7 @@
                     <li><a href="Toitumisalane.html">Toitumisalane</a></li>
                     <li><a href="Galerii.html">Galerii</a></li>
                     <li><a href="Meist.html">Meist</a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -39,7 +42,7 @@
     <div class="konteiner">
         <div class="lehesisu">
             <br><br><br><br><br><br><br><br><br><br><br>
-            <p>Siin on meie tekst!
+            <p id="meiedemo">Siin on meie tekst!
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget velit aliquet sagittis id consectetur purus. Sit amet luctus venenatis lectus magna fringilla urna. Et ultrices neque ornare aenean euismod elementum nisi. Eu facilisis sed odio morbi quis commodo odio. Pharetra sit amet aliquam id. Pretium lectus quam id leo in vitae turpis. At auctor urna nunc id. Elit ut aliquam purus sit amet luctus venenatis lectus magna. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Tincidunt id aliquet risus feugiat in ante metus. Purus non enim praesent elementum facilisis leo vel fringilla est. Turpis massa sed elementum tempus egestas sed sed. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Cursus vitae congue mauris rhoncus aenean vel elit. Suscipit tellus mauris a diam maecenas. Adipiscing vitae proin sagittis nisl. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et.
 
                 Turpis massa tincidunt dui ut ornare. Ac ut consequat semper viverra nam. Aliquam ultrices sagittis orci a scelerisque purus semper. Vehicula ipsum a arcu cursus. Eget nunc lobortis mattis aliquam faucibus. Facilisis gravida neque convallis a cras semper auctor neque vitae. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Vel facilisis volutpat est velit egestas dui id. Lacinia quis vel eros donec ac odio tempor orci dapibus. Aliquet nec ullamcorper sit amet risus nullam eget. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Eget sit amet tellus cras adipiscing enim. Id diam vel quam elementum pulvinar etiam. Scelerisque fermentum dui faucibus in ornare quam viverra. Bibendum arcu vitae elementum curabitur. Amet dictum sit amet justo donec enim diam vulputate.
@@ -66,6 +69,11 @@
 
                 Laoreet suspendisse interdum consectetur libero. Montes nascetur ridiculus mus mauris vitae ultricies leo. Mauris pharetra et ultrices neque ornare. Sit amet commodo nulla facilisi nullam vehicula ipsum. At auctor urna nunc id cursus. Felis eget nunc lobortis mattis aliquam faucibus purus. Aliquet eget sit amet tellus cras adipiscing enim eu turpis. Sapien pellentesque habitant morbi tristique senectus et netus et. Morbi tincidunt ornare massa eget egestas purus. In mollis nunc sed id. Cursus sit amet dictum sit amet justo donec enim diam. Faucibus vitae aliquet nec ullamcorper. Arcu non odio euismod lacinia at quis risus sed vulputate. Semper risus in hendrerit gravida. Ipsum nunc aliquet bibendum enim facilisis. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Aliquet bibendum enim facilisis gravida neque convallis a. Sit amet aliquam id diam maecenas ultricies mi eget.
             </p>
+            <button type="button" onclick= "myFunction()">Vajuta nuppu, ning vaata, mis saab!</button>
+            <script src="vahetus.js"></script>
+            <p id="kuupäev">Siia tuleb kellaaeg.</p>
+            <button type="button" onclick= "startTime()">Vajuta nuppu, et teada saada kellaaega!</button>
+            <script src="kellaaeg.js"></script>
         </div>
     </div>
 </body>

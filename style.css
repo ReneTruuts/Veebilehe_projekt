@@ -4,7 +4,7 @@ body {
 }
 
 .konteiner {
-    width: 1000px;
+    width: 900x;
     margin: 0 auto;
 }
 
@@ -112,3 +112,4 @@ a:active {
     background: #bb0000;
     color: white;
   }
+  
