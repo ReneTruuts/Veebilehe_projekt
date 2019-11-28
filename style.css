@@ -45,17 +45,11 @@ h1{
 h2{
     color: #e98074; font-family: "Kumar One Outline"; font-size: 20px;
 }
-h3{
-    color: #e98074; font-family: "Kumar One Outline"; font-size: 20px;
-}
-h4{
-    color: #e98074; font-family: "Kumar One Outline"; font-size: 20px;
-}
 body{
     background-color: #eae7dc;
 }
 p{
-    color: darkred; font-family: "Montserrat"; font size: 10px; 
+    color: brown; font-family: "Montserrat"; font size: 10px; text-align: center;
 }
 a:link {
     color: #e98074;
