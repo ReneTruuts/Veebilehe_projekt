@@ -55,7 +55,7 @@ body{
     background-color: #eae7dc;
 }
 p{
-    color: #8e8d8a; font-family: "Montserrat"; font size: 10px;
+    color: darkred; font-family: "Montserrat"; font size: 10px; 
 }
 a:link {
     color: #e98074;
