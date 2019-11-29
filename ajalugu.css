@@ -1,0 +1,20 @@
+.pilttekst {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: 'Great Vibes', cursive;
+}
+.recipy {
+    position: absolute;
+    top: 60px;
+    left: 120px;
+    text-align: center;
+    font-size: 70px;
+  }
+  .recipy1 {
+    position: absolute;
+    top: 170px;
+    left: 140px;
+    text-align: center;
+    font-size: 30px;
+  }
