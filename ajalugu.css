@@ -5,16 +5,16 @@
   font-family: 'Great Vibes', cursive;
 }
 .recipy {
-    position: absolute;
-    top: 60px;
-    left: 120px;
-    text-align: center;
-    font-size: 70px;
+  position: absolute;
+  top: 60px;
+  left: 120px;
+  text-align: center;
+  font-size: 70px;
   }
-  .recipy1 {
-    position: absolute;
-    top: 170px;
-    left: 140px;
-    text-align: center;
-    font-size: 30px;
+.recipy1 {
+  position: absolute;
+  top: 170px;
+  left: 100px;
+  text-align: left;
+  font-size: 25px;
   }
