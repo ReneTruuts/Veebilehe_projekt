@@ -37,7 +37,14 @@ li {
     padding-top: 40px;
     color: #e98074; 
     font-family: "Kumar One Outline"; 
+    font-size: 14px;
+    transition-duration: 1s;
+}   
+
+li:hover {
     font-size: 15px;
+    padding-top: 39px;
+    margin-left: 17px;
 }
 
 h1{
@@ -110,4 +117,5 @@ a:active {
   .kell{
     float: right;
     top: 0%;
+    padding-right: 20px;
   }

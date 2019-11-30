@@ -1,24 +1,159 @@
 .Pilt {
-    position: fixed;
-    z-index: 2;
+    position: absolute;
+    z-index: 3;
+    width: 180px;
+    height: 300px;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -90px;
+}
+.Kate {
+    position: absolute;
+    z-index: 4;
+    background-color: #eae7dc;
+    width: 800px;
+    height: 400px;
+    top: 200px;
+    left: 200px;
+    animation-name: kaob;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 
-.Jooned {
-    position: fixed;
+@keyframes kaob {
+    0% {opacity: 1}
+    50% {opacity: 0}
+    100% {opacity: 0; transform: scale(0)}
+}
+
+.Jooned_vasakul {
+    position: relative;
     z-index: 1;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
 }
-
-.Jooned .Pikad_jooned {
-    position: fixed;
+.Tekst {
+    position: absolute;
+    font-family: "Kumar One Outline";
+    color: #E98074;
+    font-size: 10px;
+    text-shadow: 2px 2px 1px white;
+    opacity: 0;
+    white-space: nowrap;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+.Tekst1vasakul {
+    position: absolute;
+    top: -100px;
+    left: 70px;
+}
+.Tekst2vasakul {
+    position: absolute;
+    top: -150px;
+    left: 70px;
+}
+.Tekst3vasakul {
+    position: absolute;
+    top: -50px;
+    left: 70px;
+}
+.Tekst1paremal {
+    position: absolute;
+    top: -125px;
+    left: 600px;
+}
+.Tekst2paremal {
+    position: absolute;
+    top: -75px;
+    left: 673px;
+}
+.Tekst3paremal {
+    position: absolute;
+    top: -25px;
+    left: 692px;
+}
+.Jooned_paremal {
+    position: relative;
     z-index: 2;
-    padding-top: 180px;
-    padding-left: 40px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
 }
 
-.Jooned .Taustavarv {
-    position: fixed;
-    z-index: 1;
+.Joon1vasakul {
+    position: relative;
+    width: 150px;
+    height: 10px;
+    background: #E98074;
+    display: table;
+    margin: 0 auto;
+    margin-top: 90px;
 }
+.Joon1paremal {
+    position: relative;
+    width: 150px;
+    height: 10px;
+    background: #E98074;
+    display: table;
+    margin: 0 auto;
+    margin-top: -85px;
+}
+.Joon2vasakul {
+    position: relative;
+    width: 150px;
+    height: 10px;
+    background: #E98074;
+    display: table;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.Joon2paremal {
+    position: relative;
+    width: 150px;
+    height: 10px;
+    background: #E98074;
+    display: table;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.Joon3vasakul {
+    position: relative;
+    width: 150px;
+    height: 10px;
+    background: #E98074;
+    display: table;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.Joon3paremal {
+    position: relative;
+    width: 150px;
+    height: 10px;
+    background: #E98074;
+    display: table;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.Pilt_ja_jooned:hover .Jooned_vasakul {
+    transform: scaleX(2.5) translate(-80px, 0px);
+}
+.Pilt_ja_jooned:hover .Jooned_paremal {
+    transform: scaleX(2.5) translate(80px, 0px);
+}
+.Pilt_ja_jooned:hover .Tekst {
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transform:translate(0px, -10px);
+    opacity: 1;
+}
+
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
     position: fixed;
