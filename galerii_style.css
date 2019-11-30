@@ -62,8 +62,8 @@ img{
   transition-duration: .3s;
   filter: grayscale(50%);
   opacity: .7;
-}
-.container:hover span{
+}   /*https://codepen.io/Peluco/pen/aQwYYV*/
+.container:hover span{  
   color:white;
   display: block;
   transition-duration: .3s;
